@@ -1,5 +1,23 @@
 # uploadthing
 
+## 5.7.2
+
+### Patch Changes
+
+- [#404](https://github.com/pingdotgg/uploadthing/pull/404)
+  [`6bd4ead`](https://github.com/pingdotgg/uploadthing/commit/6bd4ead898c824646c47d4899e3e610283a55c5a)
+  Thanks [@juliusmarminge](https://github.com/juliusmarminge)! - better error
+  handling of invalid json parsing
+
+- [#415](https://github.com/pingdotgg/uploadthing/pull/415)
+  [`1635217`](https://github.com/pingdotgg/uploadthing/commit/16352171ff05e309cd2590a2a236a48de2477860)
+  Thanks [@juliusmarminge](https://github.com/juliusmarminge)! - clone res
+  before attempting to parse json so that we can fallback to .text()
+
+- Updated dependencies
+  [[`6bd4ead`](https://github.com/pingdotgg/uploadthing/commit/6bd4ead898c824646c47d4899e3e610283a55c5a)]:
+  - @uploadthing/shared@5.2.5
+
 ## 5.7.1
 
 ### Patch Changes
